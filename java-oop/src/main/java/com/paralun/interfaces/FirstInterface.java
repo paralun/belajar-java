@@ -4,7 +4,7 @@ public interface FirstInterface {
     public void myMethod();
 
     // Java >= 8
-    default boolean isMethod() {
-        return false;
-    }
+//    default boolean isMethod() {
+//        return false;
+//    }
 }

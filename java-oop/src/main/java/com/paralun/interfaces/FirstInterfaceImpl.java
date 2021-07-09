@@ -7,8 +7,8 @@ public class FirstInterfaceImpl implements FirstInterface {
         System.out.println("Implement Interface");
     }
 
-    @Override
-    public boolean isMethod() {
-        return true;
-    }
+//    @Override
+//    public boolean isMethod() {
+//        return true;
+//    }
 }
