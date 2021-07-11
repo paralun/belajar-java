@@ -20,3 +20,8 @@
 ### SortedSet Interface
 ### NavigableSet Interface
 #### TreeSet
+## Queue Interface (FIFO)
+### Deque Interface (FIFO / LIFO)
+### ArrayDeque
+### LinkedList
+### PriorityQueue
