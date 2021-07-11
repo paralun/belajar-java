@@ -19,3 +19,6 @@
 ## Bounded Type Parameter
     - Untuk membatasi type data yg boleh digunakan di generic parameter type.
     - Secara default, generic parameter type adalah object, sehingga semua type data bisa digunakan.
+## Multiple Bounded Type Parameter
+    - Untuk menambahkan beberapa bounded type parameter dengan karakter `&` setelah bounded pertama.
+    - Type bounded kedua dan seterusnya harus menggunakan type `interface` bukan `class`
