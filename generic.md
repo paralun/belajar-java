@@ -22,3 +22,6 @@
 ## Multiple Bounded Type Parameter
     - Untuk menambahkan beberapa bounded type parameter dengan karakter `&` setelah bounded pertama.
     - Type bounded kedua dan seterusnya harus menggunakan type `interface` bukan `class`
+## Wildcard
+    - Wildcard artinya bisa maemasukan type data generic dengan type data apapun.
+    - Wildcard bisa dibuat dengan mengganti generic parameter type dengan karakter `?`
