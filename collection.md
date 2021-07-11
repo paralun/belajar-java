@@ -36,4 +36,6 @@
 ### TreeMap
 ### NavigableMap Interface
 ## Legacy Collection
-### Vector Class
+### Vector
+### HashTable
+### Stack (LIFO)
