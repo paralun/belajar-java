@@ -25,3 +25,6 @@
 ## Wildcard
     - Wildcard artinya bisa maemasukan type data generic dengan type data apapun.
     - Wildcard bisa dibuat dengan mengganti generic parameter type dengan karakter `?`
+## Type Erasure
+    - Type Erasure adalah proses pengecekan generic pada saat compile time, dan menghiraukan pengecekan pada saat runtime.
+    - Compiler akan mengubah generic parameter type menjadi type Object di Java.
