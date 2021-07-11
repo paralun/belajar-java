@@ -39,3 +39,6 @@
 ### Vector
 ### HashTable
 ### Stack (LIFO)
+## Sorting
+## Binary Search
+## Collections Class
