@@ -8,6 +8,11 @@
     - Sebagai contoh, Data<String> tidak sama dengan Data<Object> begitupun sebaliknya. 
 ## Covariant
     - Covariant artinya bisa melakukan subtitusi subtype (child) dengan supertype (parent).
-    - Untuk membuat covariant adalah dengan menggunakan kata kunci (? extends Object).
+    - Untuk membuat covariant adalah dengan menggunakan kata kunci (? extends ParentType).
     - Sebagai contoh, Data<String>, maka bisa disubtitusi menjadi Data<? extends Object>.
     - Covariant bersifat read-only, jadi tidak bisa mengubah data genericnya.
+## Contravariant
+    - Contravariant artinya bisa melakukan subtitusi supertype (parent) dengan subtype (child).
+    - Untuk membuat contravariant dengan menggunakan kata kunci (? super SubType).
+    - Sebagai contoh, Data<Object>, maka bisa disubtitusi menjadi Data<? super String>.
+    - Convariant bisa write dan read.
