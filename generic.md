@@ -16,3 +16,6 @@
     - Untuk membuat contravariant dengan menggunakan kata kunci (? super SubType).
     - Sebagai contoh, Data<Object>, maka bisa disubtitusi menjadi Data<? super String>.
     - Convariant bisa write dan read.
+## Bounded Type Parameter
+    - Untuk membatasi type data yg boleh digunakan di generic parameter type.
+    - Secara default, generic parameter type adalah object, sehingga semua type data bisa digunakan.
