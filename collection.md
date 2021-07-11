@@ -25,3 +25,15 @@
 ### ArrayDeque
 ### LinkedList
 ### PriorityQueue
+## Map Interface
+### HashMap
+### WeakHashMap
+### IdentifyHashMap
+### LinkedHashMap
+### EnumHashMap
+### Immutable Map
+### SortedMap Interface
+### TreeMap
+### NavigableMap Interface
+## Legacy Collection
+### Vector Class
