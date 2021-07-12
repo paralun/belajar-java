@@ -6,3 +6,5 @@
 - Predicate`<T, U>`
 - Supplier`<T>`
 - Consumer`<T>`
+- ...
+## Lazy Parameter
