@@ -12,3 +12,7 @@
 - Synchronization Method
 - Synchronization Statement
 ## Deadlock
+## Thread Communication
+- Sharing variable
+- wait and notify
+## Timer
