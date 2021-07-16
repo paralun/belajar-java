@@ -1,0 +1,28 @@
+package com.paralun;
+
+import com.paralun.data.Counter;
+import org.junit.jupiter.api.Test;
+
+public class RaceConditionTest {
+
+    @Test
+    void testCounter() throws InterruptedException {
+        Counter counter = new Counter();
+        Runnable runnable = () -> {
+          for (int i = 1; i <= 100_000; i++) {
+              counter.increment();
+          }
+        };
+
+        Thread thread1 = new Thread(runnable);
+        Thread thread2 = new Thread(runnable);
+
+        thread1.start();
+        thread2.start();
+
+        thread1.join();
+        thread2.join();
+
+        System.out.println(counter.getValue());
+    }
+}
