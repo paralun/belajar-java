@@ -22,3 +22,4 @@
 - ExecutorService
 ## Future
 - Callable
+- Completable
