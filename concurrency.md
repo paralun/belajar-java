@@ -36,5 +36,5 @@
 - Phaser
 - Exchanger
 ## Concurrent Collection
-- Blocking Queue
+- BlockingQueue
 - ConcurrentMap
